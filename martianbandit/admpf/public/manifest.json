@@ -1,0 +1,57 @@
+{
+  "name": "Assistant d'Inspection Mécanique",
+  "short_name": "InspectAuto",
+  "description": "Application d'inspection mécanique avec reconnaissance vocale pour véhicules",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#4f46e5",
+  "background_color": "#667eea",
+  "scope": "/",
+  "categories": ["productivity", "utilities", "business"],
+  "lang": "fr",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Assistant d'Inspection Mécanique"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nouvelle Inspection",
+      "short_name": "Inspection",
+      "description": "Démarrer une nouvelle inspection véhicule",
+      "url": "/",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "protocol_handlers": [],
+  "edge_side_panel": {
+    "preferred_width": 480
+  }
+}
